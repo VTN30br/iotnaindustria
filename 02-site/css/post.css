@@ -1,0 +1,98 @@
+
+/* Estilo comum para todas as seções de história */
+#nossa-historia, #inicio, #projeto-adiado, #retomada {
+    
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+
+.historia-container, .quem-somos-container {
+    display: flex;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    flex-direction: row; /* Garante que imagem e texto fiquem lado a lado */
+    margin-bottom: 0px; /* Espaçamento entre as seções */
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.imagem-container {
+    flex: 1; /* Define a proporção da imagem */
+    margin-right: 20px; /* Espaço entre imagem e texto */
+}
+
+.imagem-historia {
+    width: 100%; /* A imagem ocupa a largura total do container */
+    max-width: 530px; /* Define o tamanho máximo para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.texto-container, .texto, .texto-2, .texto-3 {
+    flex: 2; /* O texto ocupa mais espaço que a imagem */
+    padding: 0;
+    margin-top: 0px;
+    
+    
+   
+}
+
+.texto-container p, .texto p, .texto-2 p, .texto-3 p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-top: -5px;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.quem-somos-container {
+    display: flex; /* Usar flexbox para alinhar imagem e texto lado a lado */
+
+}
+
+.imagem-container {
+    flex: 1; /* Faz com que a imagem ocupe um espaço flexível */
+    text-align: center; /* Centraliza a imagem dentro do container */
+    margin-right: 20px; /* Espaçamento à direita para separar do texto */
+    margin-left: 15px;
+}
+
+.imagem-inicio {
+    width: 414px; /* A imagem ocupa a largura total do container */
+    max-width: 530px; /* Define o tamanho máximo para a imagem */
+    height: 400px; /* Mantém a proporção da imagem */
+
+}
+
+.texto-destaque {
+    
+
+    
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-top: 0px;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    
+
+
+    
+}
+
+.texto-destaque-2 {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-top: 0px;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 70px;
+}
+
+.submenu-classe { /* Substitua pelo seletor correto */
+    overflow: hidden;
+  }
